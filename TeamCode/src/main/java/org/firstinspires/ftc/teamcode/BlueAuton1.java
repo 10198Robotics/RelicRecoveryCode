@@ -74,7 +74,7 @@ public class BlueAuton1 extends LinearOpMode {
     /* Declare OpMode members. */
     StemHardware         robot   = new StemHardware();   // Use a Pushbot's hardware
     ColorSensor colorSensor;
-    //double Elbow;
+    double Elbow;
     boolean Elbow_Pos = true;
 
     @Override
